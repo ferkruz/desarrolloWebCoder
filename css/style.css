@@ -28,6 +28,8 @@ header{
     width: 100%;
     position: sticky;
     padding: 10px 0;
+    top: 0px;
+    z-index: 9999;
 }
 
 header img {
@@ -106,6 +108,11 @@ footer {
     margin: 0 auto;
     max-width: 600px;
 }
+
+/*HOME*/
+.gallery .v-spacer {
+    margin-top: 30px; /* Default Bootstrap gutter (10px) x 2 */
+  }
 
 
 /*HISTORY*/
