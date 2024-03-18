@@ -83,6 +83,27 @@ nav ul li:last-child a {
     border-right: none; /* Quita la línea de borde derecho */
 }
 
+/* BOTONES CUSTOM BOOSTRAP*/
+.btn-custom-primary {
+    background-color: #2D9596;
+    border-color: #2D9596;
+}
+
+.btn-custom-primary:hover {
+    background-color: #1c6667;
+    border-color: #1c6667;
+}
+
+.btn-custom-secondary {
+    background-color: #9AD0C2;
+    border-color: #9AD0C2;
+}
+
+.btn-custom-secondary:hover {
+    background-color: #78b8a9;
+    border-color: #78b8a9;
+}
+
 
 /*FOOTER*/
 footer {
