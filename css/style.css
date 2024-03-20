@@ -154,54 +154,70 @@ footer {
     max-width: 600px;
 }
 
-.team h2{
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-}
 
-.team {
-    display: flex;
-    width: 100%;
-    
-    /**direccion y la segunda propiedad le va a dar la flexibilidad**/
-    flex-direction: row;
-    /**direccion: puede ser en fila o en columna**/
-    flex-wrap: wrap;
-    /*es la propiedad que hace que los elementos se mantengan flexibles y al mismo 
-    nos ayuda a generar el responsive del sitio
-    **/
-
-    /**posicionamiento de los elementos**/
-    justify-content:center;
-    align-content: space-between;
-    gap: 20px;
-}
-
-.employee-card {
-    text-align: center;
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+/*--------------------------------------------------------------
+# staff
+--------------------------------------------------------------*/
+.staff .box {
+    margin-top: 20px;
     padding: 20px;
-    max-width: 300px;
-}
-
-.employee-card img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.employee-card h3 {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .staff h3 {
+    font-weight: 400;
+    margin: -20px -20px 25px -20px;
+    padding: 30px 15px;
     font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.employee-card p {
-    font-style: italic;
-    color: #666;
-}
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+  }
+  
+  .staff h4 {
+    margin-bottom: 20px;
+  }
+  
+  .staff h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .staff h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .staff ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .staff ul li {
+    padding-bottom: 16px;
+  }
+  
+  .staff ul i {
+    color: #ef6603;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .staff ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
 
 
 /*MENU*/
@@ -341,6 +357,31 @@ footer {
 
 
 /*EVENTOS*/
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .event {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px; /* Tamaño flexible para que las events se ajusten al contenedor */
+  }
+  
+  .event h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .event p {
+    font-size: 14px;
+    color: #666;
+  }
 
 .events {
     background-image: url('../assets/img/eventsBG.jpg');
@@ -482,3 +523,18 @@ article {
 .contact button[type="submit"]:hover {
     background-color: #9AD0C2; /* Color de fondo del botón de enviar al pasar el ratón */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
