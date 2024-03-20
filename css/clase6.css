@@ -47,3 +47,28 @@
     order: 4;
     align-self: center;
 }
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .event {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px; /* Tamaño flexible para que las events se ajusten al contenedor */
+  }
+  
+  .event h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .event p {
+    font-size: 14px;
+    color: #666;
+  }
