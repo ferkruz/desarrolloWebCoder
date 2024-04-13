@@ -1,0 +1,22 @@
+$primary-color: #265073;
+$secondary-color: #2D9596;
+$accent-color: #9AD0C2;
+$accent2-color: #F1FADA;
+
+$header-gradient-colors: #{$primary-color}, #1a6181, #0f738c, #168492, #{$secondary-color};
+$footer-gradient-colors: #{$primary-color}, #33708b, #4c909f, #70b0b1, #{$secondary-color};
+
+@mixin imgsection-block {
+  background-size: cover;
+  color: $primary-color;
+  text-align: center;
+  padding: 200px 0;
+}
+
+@mixin imgText-styles {
+  background-color: $accent-color;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
