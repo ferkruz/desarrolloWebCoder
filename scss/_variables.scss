@@ -7,6 +7,7 @@ $header-gradient-colors: #{$primary-color}, #1a6181, #0f738c, #168492, #{$second
 $footer-gradient-colors: #{$primary-color}, #33708b, #4c909f, #70b0b1, #{$secondary-color};
 
 @mixin imgsection-block {
+  font-family: "UnifrakturCook";
   background-size: cover;
   color: $primary-color;
   text-align: center;
