@@ -1,0 +1,103 @@
+/*EVENTOS*/
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  flex: 1 1 300px;
+
+  /* Tamaño flexible para que las events se ajusten al contenedor */
+
+  h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+}
+
+.events {
+  background-image: url('../assets/img/eventsBG.jpg');
+  @include imgsection-block;
+
+  h2,
+  p {
+    @include imgText-styles;
+  }
+}
+
+.eventsgallery {
+  display: flex;
+  width: 100%;
+
+  /**direccion y la segunda propiedad le va a dar la flexibilidad**/
+  flex-direction: row;
+
+  /**direccion: puede ser en fila o en columna**/
+  flex-wrap: wrap;
+
+  /*es la propiedad que hace que los elementos se mantengan flexibles y al mismo 
+  nos ayuda a generar el responsive del sitio
+  **/
+
+  /**posicionamiento de los elementos**/
+  justify-content: center;
+  align-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+
+  h2 {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 10px;
+
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+.eventsnews {
+  text-align: center;
+  padding: 20px 0;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+article {
+  text-align: center;
+  margin: 10px 130px;
+  padding: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: $accent-color;
+}
