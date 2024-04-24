@@ -1,0 +1,119 @@
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 576px) {
+    .hero {
+      h1 {
+        font-family: "UnifrakturCook";
+        font-style: normal;
+        background-color: #9ad0c26e;
+        font-size: 28px;
+      }
+  
+      h2 {
+        font-size: 18px;
+      }
+    }
+  
+    header img {
+      width: 200px; // Tamaño del logo
+    }
+  
+    .gallery img {
+      width: 100%;
+    }
+  
+    .history h2 {
+      font-size: 18px;
+    }
+  
+  
+  
+    .contact {
+      h2 {
+        font-size: 20px;
+      }
+  
+      p {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+  
+      form {
+        padding: 0 10px;
+      }
+  
+      input {
+  
+        &[type="text"],
+        &[type="email"] {
+          margin-bottom: 16px;
+        }
+      }
+  
+      textarea {
+        margin-bottom: 16px;
+        height: 120px;
+      }
+  
+      button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  /* Media query para tabletas */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+    .hero {
+      h1 {
+        background-color: #9ad0c26e;
+        font-size: 36px;
+      }
+  
+      h2 {
+        font-family: "UnifrakturCook";
+        font-style: normal;
+        font-size: 22px;
+      }
+    }
+  
+    .nav {
+      img {
+        height: 50% !important;
+      }
+    }
+  
+    .history h2 {
+      font-size: 22px;
+    }
+  
+    .contact {
+      h2 {
+        font-size: 22px;
+      }
+  
+      p {
+        font-size: 15px;
+        margin-bottom: 35px;
+      }
+  
+      input {
+  
+        &[type="text"],
+        &[type="email"] {
+          margin-bottom: 18px;
+        }
+      }
+  
+      textarea {
+        margin-bottom: 18px;
+        height: 130px;
+      }
+  
+      button[type="submit"] {
+        padding: 9px 18px;
+        font-size: 15px;
+      }
+    }
+  }
